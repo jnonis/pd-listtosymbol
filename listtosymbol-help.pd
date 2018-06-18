@@ -1,0 +1,11 @@
+#N canvas 251 138 450 300 10;
+#X symbolatom 19 130 30 0 0 0 - - -, f 30;
+#X text 16 15 Convert a list to a symbol;
+#X msg 163 46 Hello World! Other Test;
+#X msg 19 46 list Hello World!;
+#X obj 163 67 list;
+#X obj 19 106 listtosymbol;
+#X connect 2 0 4 0;
+#X connect 3 0 5 0;
+#X connect 4 0 5 0;
+#X connect 5 0 0 0;
